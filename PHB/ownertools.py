@@ -2,7 +2,7 @@ import os
 import sys
 from pyrogram import Client, idle, filters
 from pyrogram.types import Message
-from src.database import DB
+from PHB.database import DB
 from config import LOGS, BOT, DUMP_GRP, OWNER
 
 @Client.on_message(filters.command("addkey") & filters.user(OWNER))
