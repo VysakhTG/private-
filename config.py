@@ -17,5 +17,5 @@ BOT_USERNAME = os.getenv("BOT_USERNAME", "PHDL_RoBot")
 DUMP_GRP = os.getenv("DUMP_GRP")
 SPY_GRP = os.getenv("SPY_GRP")
 
-LOGS = getLogger("PHDLBot")
-BOT = Client("PHDLBot", API_ID, API_HASH, bot_token=BOT_TOKEN, plugins=dict(root="src"))
+LOGS = getLogger("pornbot")
+BOT = Client("pornbot", API_ID, API_HASH, bot_token=BOT_TOKEN, plugins=dict(root="PHB"))
