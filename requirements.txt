@@ -1,6 +1,6 @@
 asyncio
 tgcrypto
-git+https://github.com/illuminati124/pyrogram
+git+https://github.com/FriDayXD/pyrogram
 pornhub-api
 requests
 selenium
