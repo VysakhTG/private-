@@ -7,7 +7,7 @@ import logging
 from yt_dlp import YoutubeDL
 from pyrogram import Client, idle, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, InputMediaVideo
-from src.database import DB
+from PHB.database import DB
 from config import BOT_USERNAME, BOT, LOGS, OWNER, DUMP_GRP, SPY_GRP
 
 
