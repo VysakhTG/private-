@@ -1,5 +1,5 @@
 {
-    "name": "PHDLBot",
+    "name": "pornbot",
     "description": "A bot that can download P*** !",
     "logo": "https://i.pcmag.com/imagery/articles/07hppU34PuukyCinq2uoG4K-1..v1569491125.jpg",
     "keywords": [
@@ -7,7 +7,7 @@
         "P*** Downloader",
         "Telegram Bot"
     ],
-    "repository": "https://github.com/illuminati124/PHDL-RoBot",
+    "repository": "https://github.com/TheDeCoDe/pornbot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
