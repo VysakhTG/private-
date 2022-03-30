@@ -1,6 +1,6 @@
 from config import BOT, BOT_USERNAME
-from src.database import DB
-from src.inline import check_user
+from PHB.database import DB
+from PHB.inline import check_user
 from pyrogram import Client, filters, idle
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup 
 
