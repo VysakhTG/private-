@@ -1,0 +1,56 @@
+{
+    "name": "PHDLBot",
+    "description": "A bot that can download P*** !",
+    "logo": "https://i.pcmag.com/imagery/articles/07hppU34PuukyCinq2uoG4K-1..v1569491125.jpg",
+    "keywords": [
+        "PHDLBot",
+        "P*** Downloader",
+        "Telegram Bot"
+    ],
+    "repository": "https://github.com/illuminati124/PHDL-RoBot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        }, 
+        "REDIS_URI": {
+            "description": "Redis Endpoint URL",
+            "value": ""
+        },
+        "REDIS_PWD": {
+            "description": "Redis Database Password",
+            "value": ""
+        },
+        "DUMP_GRP": {
+            "description": "P*** Dump Channel ID",
+            "value": ""
+        },
+        "SPY_GRP": {
+            "description": "HeHe",
+            "value": ""
+        },
+        "OWNER": {
+            "description": "Owner ID",
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "Bot Username",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

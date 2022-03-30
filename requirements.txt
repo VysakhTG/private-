@@ -1,0 +1,13 @@
+asyncio
+tgcrypto
+git+https://github.com/illuminati124/pyrogram
+pornhub-api
+requests
+selenium
+beautifulsoup4
+ujson
+redis
+urllib3
+python-dotenv
+pytz
+yt-dlp
