@@ -7,7 +7,7 @@ from pornhub_api import PornhubApi
 from pyrogram import Client, idle, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, InputMediaAudio, InputMediaVideo, InlineQuery, InlineQueryResultArticle, InlineQueryResultPhoto, InlineQueryResultVideo, InputTextMessageContent
 from config import BOT_USERNAME, BOT, LOGS, OWNER, DUMP_GRP
-from src.database import DB
+from PHB.database import DB
 
 # Some Stuffs 
 def check_user(id):
