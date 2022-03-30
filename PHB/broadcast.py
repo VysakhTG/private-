@@ -1,7 +1,7 @@
 import os
 from pyrogram import Client, idle, filters
 from pyrogram.types import Message
-from src.database import DB, sudo_filter
+from PHB.database import DB, sudo_filter
 from config import LOGS, BOT, OWNER
 
 
