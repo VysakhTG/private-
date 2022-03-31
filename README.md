@@ -1,4 +1,8 @@
 # PornBot
+<a href="https://t.me/OfficialDeCode"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="t.me/DeCodeSupport"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+
+
 This is a Powerfull and fast porn source code Powered By @TeamDeCoDe
 
 ## ✨ Heroku Deploy ✨
