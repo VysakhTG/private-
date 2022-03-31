@@ -9,11 +9,11 @@ The easiest way to deploy this Bot is via Heroku.
 
 # CREDIT 💞
 ```
-`Louis`
-`Sammy`
-`Blaze`
-`AbhiShek`
-`PraTheek`
+[Louis]
+[Sammy]
+[Blaze]
+[AbhiShek]
+[PraTheek]
 ```
 
 # Special Thanks To 
