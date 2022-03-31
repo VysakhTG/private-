@@ -13,15 +13,18 @@ async def start_msg(client, m: Message):
         START_TXT,
         reply_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                        text="Search 🎥",
-                        switch_inline_query_current_chat=""
-                    )
+                    [
+                        InlineKeyboardButton(
+                            text="Support", url="t.me/Decodesupport"
+                        ),
+                        InlineKeyboardButton(
+                            text="UpDate", url="https://t.me/OfficialDeCode"
+                        ),
+                    ],
+                    [InlineKeyboardButton(text="Search 🎥", switch_inline_query_current_chat=)],
                 ]
-            ]
+            ),
         )
-    )
     
 @Client.on_message(filters.command("help"))
 async def help_msg(client, m: Message):
@@ -31,15 +34,18 @@ async def help_msg(client, m: Message):
         START_TXT,
         reply_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                        text="Search 🎥",
-                        switch_inline_query_current_chat=""
-                    )
+                    [
+                        InlineKeyboardButton(
+                            text="Support", url="t.me/Decodesupport"
+                        ),
+                        InlineKeyboardButton(
+                            text="UpDate", url="https://t.me/OfficialDeCode"
+                        ),
+                    ],
+                    [InlineKeyboardButton(text="Search 🎥", switch_inline_query_current_chat=)],
                 ]
-            ]
+            ),
         )
-    )
     
     
 @Client.on_message(filters.command("stats"))
