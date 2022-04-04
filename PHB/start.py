@@ -15,7 +15,7 @@ async def start_msg(client, m: Message):
             [
                     [
                         InlineKeyboardButton(
-                            text="Support", url="t.me/Decodesupport"
+                            text="Support", url="t.me/TheeDecode"
                         ),
                         InlineKeyboardButton(
                             text="UpDate", url="https://t.me/OfficialDeCode"
@@ -36,7 +36,7 @@ async def help_msg(client, m: Message):
             [
                     [
                         InlineKeyboardButton(
-                            text="Support", url="t.me/Decodesupport"
+                            text="Support", url="t.me/TheeDecode"
                         ),
                         InlineKeyboardButton(
                             text="UpDate", url="https://t.me/OfficialDeCode"
