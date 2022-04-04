@@ -21,7 +21,7 @@ async def start_msg(client, m: Message):
                             text="UpDate", url="https://t.me/OfficialDeCode"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Search 🎥", switch_inline_query_current_chat=)],
+                    [InlineKeyboardButton(text="Search 🎥", switch_inline_query_current_chat=query)],
                 ]
             ),
         )
@@ -42,7 +42,7 @@ async def help_msg(client, m: Message):
                             text="UpDate", url="https://t.me/OfficialDeCode"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Search 🎥", switch_inline_query_current_chat=)],
+                    [InlineKeyboardButton(text="Search 🎥", switch_inline_query_current_chat=query)],
                 ]
             ),
         )
